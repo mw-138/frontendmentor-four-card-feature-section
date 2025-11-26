@@ -20,7 +20,7 @@ const Card: React.FC<CardProps> = ({
       style={{ borderTopColor: stripColor }}
     >
       <h1 className="font-bold">{title}</h1>
-      <p>{description}</p>
+      <p className="text-sm">{description}</p>
       <Image src={imageSrc} alt="" className="absolute bottom-5 right-5" />
     </div>
   );
