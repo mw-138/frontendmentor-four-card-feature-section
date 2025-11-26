@@ -16,7 +16,7 @@ const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <div
-      className="bg-white w-72 h-48 text-gray-500 rounded-md border-t-4 p-4 shadow-xl"
+      className="bg-white relative w-72 h-48 text-gray-500 rounded-md border-t-4 p-4 shadow-xl"
       style={{ borderTopColor: stripColor }}
     >
       <h1 className="font-bold">{title}</h1>
